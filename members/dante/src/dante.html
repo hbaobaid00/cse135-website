@@ -23,13 +23,13 @@
     </header>
 
     <main class="container">
-      <section class="card profile" aria-labelledby="profileTitle">
+      <div class="card profile">
         <div class="card-head">
           <h2 id="profileTitle">profile</h2>
         </div>
 
         <div class="profile-grid">
-          <div class="img-frame" aria-label="Image of Dante">
+          <div class="img-frame">
             <!-- Put image at: members/dante/images/dante.jpg (or change src) -->
             <img
               src="/members/dante/images/dante.jpg"
@@ -65,10 +65,10 @@
             </ul>
           </div>
         </div>
-      </section>
+    </div>
 
-      <section class="grid-2">
-        <section class="card" aria-labelledby="gamesTitle">
+      <div class="grid-2">
+        <div class="card">
           <div class="card-head">
             <h2 id="gamesTitle">Games I’ve Played</h2>
           </div>
@@ -82,9 +82,9 @@
           </button>
 
           <p id="gameOut" class="output" aria-live="polite"></p>
-        </section>
+        </div>
 
-        <section class="card" aria-labelledby="moviesTitle">
+        <div class="card">
           <div class="card-head">
             <h2 id="moviesTitle">Movies I’ve Watched</h2>
           </div>
@@ -98,12 +98,11 @@
           </button>
 
           <p id="movieOut" class="output" aria-live="polite"></p>
-        </section>
-      </section>
+        </div>
+    </div>
     </main>
 
     <footer class="footer">
-      <p class="footer-text">simple red theme · black text · d’ante page</p>
     </footer>
 
     <script src="/members/dante/js/dante.js"></script>

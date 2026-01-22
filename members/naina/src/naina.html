@@ -30,7 +30,7 @@
 
         </div>
 
-        <aside class="hero-right" aria-label="Photo of me">
+        <aside class="hero-right">
           <div class="frame">
             <div class="frame-top" aria-hidden="true">
               <span class="bow bow-mini"></span>
@@ -46,7 +46,7 @@
               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
             />
 
-            <div class="img-placeholder" aria-label="Place image here">
+            <div class="img-placeholder">
               <div>
                 <p class="ph-title">Place image here</p>
                 <p class="ph-sub">/members/naina/images/me.jpg</p>
@@ -60,7 +60,7 @@
     </header>
 
     <main class="container">
-      <section class="card about" aria-labelledby="aboutTitle">
+      <div class="card about">
         <div class="card-head">
           <h2 id="aboutTitle">about me</h2>
           <div class="bow bow-mini" aria-hidden="true"></div>
@@ -83,10 +83,10 @@
             <span class="sub">(ask me abt music/game specifics !!)</span>
           </li>
         </ul>
-      </section>
+    </div>
 
-      <section class="two-col">
-        <section class="card corner" aria-labelledby="cornerTitle">
+      <div class="two-col">
+        <div class="card corner">
           <div class="card-head">
             <h2 id="cornerTitle">hobbies / favs corner</h2>
             <div class="bow bow-mini" aria-hidden="true"></div>
@@ -104,7 +104,7 @@
               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
             />
 
-            <div class="img-placeholder" aria-label="Place image here">
+            <div class="img-placeholder">
               <div>
                 <p class="ph-title">Place image here</p>
                 <p class="ph-sub">/members/naina/images/corner.jpg</p>
@@ -118,9 +118,9 @@
             </button>
             <p id="complimentOut" class="compliment" aria-live="polite"></p>
           </div>
-        </section>
+        </div>
 
-        <section class="card vibes" aria-labelledby="vibesTitle">
+        <div class="card vibes">
           <div class="card-head">
             <h2 id="vibesTitle">pick a vibe</h2>
             <div class="bow bow-mini" aria-hidden="true"></div>
@@ -130,7 +130,7 @@
             For when we’re deciding what to do in SD.
           </p>
 
-          <div class="vibe-grid" role="group" aria-label="Vibe buttons">
+          <div class="vibe-grid" role="group">
             <button class="vibe" type="button" data-vibe="study">study cafe</button>
             <button class="vibe" type="button" data-vibe="thrift">thrift run</button>
             <button class="vibe" type="button" data-vibe="gym">workout together</button>
@@ -140,10 +140,10 @@
           </div>
 
           <p id="vibeOut" class="vibe-out" aria-live="polite"></p>
-        </section>
-      </section>
+        </div>
+    </div>
 
-      <section class="card photos" aria-labelledby="photosTitle">
+      <div class="card photos">
         <div class="card-head">
           <h2 id="photosTitle">recent photos (6)</h2>
           <div class="bow bow-mini" aria-hidden="true"></div>
@@ -152,7 +152,7 @@
         <p class="muted">
         </p>
 
-        <div class="photo-grid" aria-label="Recent photos grid">
+        <div class="photo-grid">
           <figure class="ph">
             <img src="/members/naina/images/recent1.png" alt="Recent photo 1"
               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
@@ -189,7 +189,7 @@
             <div class="img-placeholder"><p class="ph-sub">p6.jpg</p></div>
           </figure>
         </div>
-      </section>
+    </div>
     </main>
 
     <footer class="footer">
