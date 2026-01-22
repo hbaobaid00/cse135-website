@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Naina Singh</title>
+
+    <link rel="icon" href="/assets/bananabread.ico" />
+    <link rel="stylesheet" href="/members/naina/css/naina.css" />
+  </head>
+
+  <body>
+    <header class="top">
+      <nav class="nav">
+      </nav>
+
+      <div class="hero">
+        <div class="hero-left">
+          <div class="bow-row" aria-hidden="true">
+            <span class="bow"></span>
+            <span class="bow bow-small"></span>
+            <span class="bow"></span>
+          </div>
+        
+
+          <h1 class="name">Naina Singh</h1>
+          <p class="tagline">
+            4th year CS major · Muir College · UC San Diego
+          </p>
+
+        </div>
+
+        <aside class="hero-right" aria-label="Photo of me">
+          <div class="frame">
+            <div class="frame-top" aria-hidden="true">
+              <span class="bow bow-mini"></span>
+              <span class="bow bow-mini"></span>
+              <span class="bow bow-mini"></span>
+            </div>
+
+            <!-- Put your image in members/naina/images/me.jpg (or change the filename below) -->
+            <img
+              class="me"
+              src="/members/naina/images/me.png"
+              alt="A photo of Naina"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+            />
+
+            <div class="img-placeholder" aria-label="Place image here">
+              <div>
+                <p class="ph-title">Place image here</p>
+                <p class="ph-sub">/members/naina/images/me.jpg</p>
+              </div>
+            </div>
+
+            <p class="frame-caption">This is me! Naina is pronounced like "nana" in "banana" !</p>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card about" aria-labelledby="aboutTitle">
+        <div class="card-head">
+          <h2 id="aboutTitle">about me</h2>
+          <div class="bow bow-mini" aria-hidden="true"></div>
+        </div>
+
+        <ul class="bullets">
+          <li>fav color: pink</li>
+          <li>chronically online</li>
+          <li>huge foodie, let’s go eat out!</li>
+          <li>punjabi, on UCSD’s bhangra team</li>
+          <li>love to dress up and take pictures</li>
+          <li>goal: explore all the speakeasies in SD</li>
+          <li>
+            down to do everything! i love trying new things
+            <span class="sub">(study, thrift, gym, hike, shop, eat, etc)</span>
+          </li>
+          <li>fav music: i like every genre (except country sorry)</li>
+          <li>
+            fav games: rpgs, cozy games, indie/horror, down to play anything though if you convince me enough!
+            <span class="sub">(ask me abt music/game specifics !!)</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="two-col">
+        <section class="card corner" aria-labelledby="cornerTitle">
+          <div class="card-head">
+            <h2 id="cornerTitle">hobbies / favs corner</h2>
+            <div class="bow bow-mini" aria-hidden="true"></div>
+          </div>
+
+          <p class="muted">
+            Some of my favorite hobbies and things.
+          </p>
+
+          <div class="corner-img">
+            <!-- Put your image in members/naina/images/corner.jpg (or change filename) -->
+            <img
+              src="/members/naina/images/hobbies.png"
+              alt="Hobbies and favorites collage"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+            />
+
+            <div class="img-placeholder" aria-label="Place image here">
+              <div>
+                <p class="ph-title">Place image here</p>
+                <p class="ph-sub">/members/naina/images/corner.jpg</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini-actions">
+            <button id="complimentBtn" type="button" class="btn">
+              click for random game I like to play!
+            </button>
+            <p id="complimentOut" class="compliment" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="card vibes" aria-labelledby="vibesTitle">
+          <div class="card-head">
+            <h2 id="vibesTitle">pick a vibe</h2>
+            <div class="bow bow-mini" aria-hidden="true"></div>
+          </div>
+
+          <p class="muted">
+            For when we’re deciding what to do in SD.
+          </p>
+
+          <div class="vibe-grid" role="group" aria-label="Vibe buttons">
+            <button class="vibe" type="button" data-vibe="study">study cafe</button>
+            <button class="vibe" type="button" data-vibe="thrift">thrift run</button>
+            <button class="vibe" type="button" data-vibe="gym">workout together</button>
+            <button class="vibe" type="button" data-vibe="hike">sunset hike</button>
+            <button class="vibe" type="button" data-vibe="shop">shop day</button>
+            <button class="vibe" type="button" data-vibe="eat">eat out</button>
+          </div>
+
+          <p id="vibeOut" class="vibe-out" aria-live="polite"></p>
+        </section>
+      </section>
+
+      <section class="card photos" aria-labelledby="photosTitle">
+        <div class="card-head">
+          <h2 id="photosTitle">recent photos (6)</h2>
+          <div class="bow bow-mini" aria-hidden="true"></div>
+        </div>
+
+        <p class="muted">
+        </p>
+
+        <div class="photo-grid" aria-label="Recent photos grid">
+          <figure class="ph">
+            <img src="/members/naina/images/recent1.png" alt="Recent photo 1"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="img-placeholder"><p class="ph-sub">p1.jpg</p></div>
+          </figure>
+
+          <figure class="ph">
+            <img src="/members/naina/images/recent2.png" alt="Recent photo 2"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="img-placeholder"><p class="ph-sub">p2.jpg</p></div>
+          </figure>
+
+          <figure class="ph">
+            <img src="/members/naina/images/recent3.png" alt="Recent photo 3"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="img-placeholder"><p class="ph-sub">p3.jpg</p></div>
+          </figure>
+
+          <figure class="ph">
+            <img src="/members/naina/images/recent4.png" alt="Recent photo 4"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="img-placeholder"><p class="ph-sub">p4.jpg</p></div>
+          </figure>
+
+          <figure class="ph">
+            <img src="/members/naina/images/recent5.png" alt="Recent photo 5"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="img-placeholder"><p class="ph-sub">p5.jpg</p></div>
+          </figure>
+
+          <figure class="ph">
+            <img src="/members/naina/images/recent6.png" alt="Recent photo 6"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="img-placeholder"><p class="ph-sub">p6.jpg</p></div>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span class="tiny"></span>
+        <span aria-hidden="true"> ♡ </span>
+        <span class="tiny"></span>
+      </p>
+    </footer>
+
+    <script src="/members/naina/js/naina.js"></script>
+  </body>
+</html>
